@@ -45,9 +45,10 @@ $ npm install
 
 # Build and copy react-front end 
 $ npm build:ui
-
-# config .env file
-$$MONGODB_URI=
+```
+config .env file
+```
+$MONGODB_URI=
 
 $ PORT=
 
