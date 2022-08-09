@@ -45,6 +45,15 @@ $ npm install
 
 # Build and copy react-front end 
 $ npm build:ui
+
+# config .env file
+$$MONGODB_URI=
+
+$ PORT=
+
+$ TEST_MONGODB_URI=
+
+$ FINHUB_KEY=
 ```
 ### Executing program
 
