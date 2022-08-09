@@ -1,0 +1,40 @@
+$bgcolor: #eeeeee;
+
+.Stocks {
+    &>div{margin-bottom: 1rem;}
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.App {
+    background-color: $bgcolor;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    position: absolute;
+    top: -1.2rem;
+    z-index: 5;
+    color: #dc3545;
+    font-size: 12px;
+}
